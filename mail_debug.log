@@ -1,0 +1,934 @@
+[2025-09-05T23:31:49+00:00] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7722a4bcd09sm22491160b3a.49 - gsmtp
+
+[2025-09-05T23:31:49+00:00] CLIENT -> SERVER: EHLO hanapbahay.online
+
+[2025-09-05T23:31:49+00:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:3:644:0:1897:dfa:1]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-09-05T23:31:49+00:00] CLIENT -> SERVER: STARTTLS
+
+[2025-09-05T23:31:50+00:00] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-09-05T23:31:50+00:00] CLIENT -> SERVER: EHLO hanapbahay.online
+
+[2025-09-05T23:31:50+00:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:3:644:0:1897:dfa:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-09-05T23:31:50+00:00] CLIENT -> SERVER: AUTH LOGIN
+
+[2025-09-05T23:31:50+00:00] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-09-05T23:31:50+00:00] CLIENT -> SERVER: [credentials hidden]
+[2025-09-05T23:31:50+00:00] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-09-05T23:31:50+00:00] CLIENT -> SERVER: [credentials hidden]
+[2025-09-05T23:31:50+00:00] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-09-05T23:31:50+00:00] CLIENT -> SERVER: MAIL FROM:<eysie2@gmail.com>
+
+[2025-09-05T23:31:50+00:00] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7722a4bcd09sm22491160b3a.49 - gsmtp
+
+[2025-09-05T23:31:50+00:00] CLIENT -> SERVER: RCPT TO:<ac.amodia@gmail.com>
+
+[2025-09-05T23:31:51+00:00] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7722a4bcd09sm22491160b3a.49 - gsmtp
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: DATA
+
+[2025-09-05T23:31:51+00:00] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7722a4bcd09sm22491160b3a.49 - gsmtp
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: Date: Fri, 5 Sep 2025 23:31:49 +0000
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: To: Arukin <ac.amodia@gmail.com>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: From: HanapBahay <eysie2@gmail.com>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: Reply-To: HanapBahay Support <eysie2@gmail.com>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: Subject: HanapBahay Email Verification
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: Message-ID: <RFzE8JLDCUzIRp9i8AOtoXhNYTPaRAvNGxrLZ95VUE@hanapbahay.online>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: X-Mailer: HanapBahay Verification Mailer
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: X-Priority: 3
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER:  boundary="b1=_RFzE8JLDCUzIRp9i8AOtoXhNYTPaRAvNGxrLZ95VUE"
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: --b1=_RFzE8JLDCUzIRp9i8AOtoXhNYTPaRAvNGxrLZ95VUE
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: Verify your email: https://hanapbahay.online/verify_email.php?token=e97d0cb872461f8bfe24fe851b7fd3d3
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: --b1=_RFzE8JLDCUzIRp9i8AOtoXhNYTPaRAvNGxrLZ95VUE
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER:             <p>Hi <strong>Arukin</strong>,</p>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER:             <p>Thank you for registering with <strong>HanapBahay</strong>!</p>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER:             <p>Please verify your email address by clicking the link below:</p>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER:             <p><a href='https://hanapbahay.online/verify_email.php?token=e97d0cb872461f8bfe24fe851b7fd3d3'>https://hanapbahay.online/verify_email.php?token=e97d0cb872461f8bfe24fe851b7fd3d3</a></p>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER:             <br>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER:             <p>If you did not register, you can safely ignore this message.</p>
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER:         
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: --b1=_RFzE8JLDCUzIRp9i8AOtoXhNYTPaRAvNGxrLZ95VUE--
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:31:51+00:00] CLIENT -> SERVER: .
+
+[2025-09-05T23:31:52+00:00] SERVER -> CLIENT: 250 2.0.0 OK  1757115111 d2e1a72fcca58-7722a4bcd09sm22491160b3a.49 - gsmtp
+
+[2025-09-05T23:31:52+00:00] CLIENT -> SERVER: QUIT
+
+[2025-09-05T23:31:52+00:00] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7722a4bcd09sm22491160b3a.49 - gsmtp
+
+[2025-09-05T23:33:08+00:00] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-329b4ef032asm15362136a91.13 - gsmtp
+
+[2025-09-05T23:33:08+00:00] CLIENT -> SERVER: EHLO hanapbahay.online
+
+[2025-09-05T23:33:08+00:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:3:644:0:1897:dfa:1]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-09-05T23:33:08+00:00] CLIENT -> SERVER: STARTTLS
+
+[2025-09-05T23:33:08+00:00] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-09-05T23:33:08+00:00] CLIENT -> SERVER: EHLO hanapbahay.online
+
+[2025-09-05T23:33:08+00:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:3:644:0:1897:dfa:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-09-05T23:33:08+00:00] CLIENT -> SERVER: AUTH LOGIN
+
+[2025-09-05T23:33:08+00:00] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-09-05T23:33:08+00:00] CLIENT -> SERVER: [credentials hidden]
+[2025-09-05T23:33:08+00:00] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-09-05T23:33:08+00:00] CLIENT -> SERVER: [credentials hidden]
+[2025-09-05T23:33:09+00:00] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: MAIL FROM:<eysie2@gmail.com>
+
+[2025-09-05T23:33:09+00:00] SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-329b4ef032asm15362136a91.13 - gsmtp
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: RCPT TO:<ac.amodia@gmail.com>
+
+[2025-09-05T23:33:09+00:00] SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-329b4ef032asm15362136a91.13 - gsmtp
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: DATA
+
+[2025-09-05T23:33:09+00:00] SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-329b4ef032asm15362136a91.13 - gsmtp
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: Date: Fri, 5 Sep 2025 23:33:07 +0000
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: To: Arukin <ac.amodia@gmail.com>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: From: HanapBahay <eysie2@gmail.com>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: Reply-To: HanapBahay Support <eysie2@gmail.com>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: Subject: HanapBahay Email Verification
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: Message-ID: <VdGUJ1Cob9JdeXugFj0ZlMEFRoYMrUZchpDAUd8rLM@hanapbahay.online>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: X-Mailer: HanapBahay Verification Mailer
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: X-Priority: 3
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER:  boundary="b1=_VdGUJ1Cob9JdeXugFj0ZlMEFRoYMrUZchpDAUd8rLM"
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: --b1=_VdGUJ1Cob9JdeXugFj0ZlMEFRoYMrUZchpDAUd8rLM
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: Verify your email: https://hanapbahay.online/verify_email.php?token=36a6822c346b3a822abe6779b03e49da
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: --b1=_VdGUJ1Cob9JdeXugFj0ZlMEFRoYMrUZchpDAUd8rLM
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER:             <p>Hi <strong>Arukin</strong>,</p>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER:             <p>Thank you for registering with <strong>HanapBahay</strong>!</p>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER:             <p>Please verify your email address by clicking the link below:</p>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER:             <p><a href='https://hanapbahay.online/verify_email.php?token=36a6822c346b3a822abe6779b03e49da'>https://hanapbahay.online/verify_email.php?token=36a6822c346b3a822abe6779b03e49da</a></p>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER:             <br>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER:             <p>If you did not register, you can safely ignore this message.</p>
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER:         
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: --b1=_VdGUJ1Cob9JdeXugFj0ZlMEFRoYMrUZchpDAUd8rLM--
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: 
+
+[2025-09-05T23:33:09+00:00] CLIENT -> SERVER: .
+
+[2025-09-05T23:33:10+00:00] SERVER -> CLIENT: 250 2.0.0 OK  1757115190 98e67ed59e1d1-329b4ef032asm15362136a91.13 - gsmtp
+
+[2025-09-05T23:33:10+00:00] CLIENT -> SERVER: QUIT
+
+[2025-09-05T23:33:10+00:00] SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-329b4ef032asm15362136a91.13 - gsmtp
+
+[2025-09-06T10:30:26+00:00] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-3276f5a0bf9sm31373272a91.13 - gsmtp
+
+[2025-09-06T10:30:26+00:00] CLIENT -> SERVER: EHLO hanapbahay.online
+
+[2025-09-06T10:30:26+00:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:3:644:0:1897:dfa:1]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-09-06T10:30:26+00:00] CLIENT -> SERVER: STARTTLS
+
+[2025-09-06T10:30:26+00:00] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-09-06T10:30:26+00:00] CLIENT -> SERVER: EHLO hanapbahay.online
+
+[2025-09-06T10:30:26+00:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:3:644:0:1897:dfa:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-09-06T10:30:26+00:00] CLIENT -> SERVER: AUTH LOGIN
+
+[2025-09-06T10:30:26+00:00] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-09-06T10:30:26+00:00] CLIENT -> SERVER: [credentials hidden]
+[2025-09-06T10:30:27+00:00] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: [credentials hidden]
+[2025-09-06T10:30:27+00:00] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: MAIL FROM:<eysie2@gmail.com>
+
+[2025-09-06T10:30:27+00:00] SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-3276f5a0bf9sm31373272a91.13 - gsmtp
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: RCPT TO:<angelo.morada@my.jru.edu>
+
+[2025-09-06T10:30:27+00:00] SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-3276f5a0bf9sm31373272a91.13 - gsmtp
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: DATA
+
+[2025-09-06T10:30:27+00:00] SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-3276f5a0bf9sm31373272a91.13 - gsmtp
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: Date: Sat, 6 Sep 2025 10:30:25 +0000
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: To: Angelo <angelo.morada@my.jru.edu>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: From: HanapBahay <eysie2@gmail.com>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: Reply-To: HanapBahay Support <eysie2@gmail.com>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: Subject: HanapBahay Email Verification
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: Message-ID: <8iuZ3BMTEAJSzYJWLNY1QryMfDaecRUXx52psz84@hanapbahay.online>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: X-Mailer: HanapBahay Verification Mailer
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: X-Priority: 3
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER:  boundary="b1=_8iuZ3BMTEAJSzYJWLNY1QryMfDaecRUXx52psz84"
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: 
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: --b1=_8iuZ3BMTEAJSzYJWLNY1QryMfDaecRUXx52psz84
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: 
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: Verify your email: https://hanapbahay.online/verify_email.php?token=ca8210c42b3e1c66131fb51a77a40b5a
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: 
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: --b1=_8iuZ3BMTEAJSzYJWLNY1QryMfDaecRUXx52psz84
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: 
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: 
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER:             <p>Hi <strong>Angelo</strong>,</p>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER:             <p>Thank you for registering with <strong>HanapBahay</strong>!</p>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER:             <p>Please verify your email address by clicking the link below:</p>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER:             <p><a href='https://hanapbahay.online/verify_email.php?token=ca8210c42b3e1c66131fb51a77a40b5a'>https://hanapbahay.online/verify_email.php?token=ca8210c42b3e1c66131fb51a77a40b5a</a></p>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER:             <br>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER:             <p>If you did not register, you can safely ignore this message.</p>
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER:         
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: 
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: 
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: --b1=_8iuZ3BMTEAJSzYJWLNY1QryMfDaecRUXx52psz84--
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: 
+
+[2025-09-06T10:30:27+00:00] CLIENT -> SERVER: .
+
+[2025-09-06T10:30:28+00:00] SERVER -> CLIENT: 250 2.0.0 OK  1757154628 98e67ed59e1d1-3276f5a0bf9sm31373272a91.13 - gsmtp
+
+[2025-09-06T10:30:28+00:00] CLIENT -> SERVER: QUIT
+
+[2025-09-06T10:30:28+00:00] SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-3276f5a0bf9sm31373272a91.13 - gsmtp
+
+[2025-09-23T15:47:18+00:00] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-b5569adf3bcsm1332096a12.9 - gsmtp
+
+[2025-09-23T15:47:18+00:00] CLIENT -> SERVER: EHLO hanapbahay.online
+
+[2025-09-23T15:47:18+00:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:3:644:0:1897:dfa:1]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-09-23T15:47:18+00:00] CLIENT -> SERVER: STARTTLS
+
+[2025-09-23T15:47:18+00:00] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-09-23T15:47:18+00:00] CLIENT -> SERVER: EHLO hanapbahay.online
+
+[2025-09-23T15:47:18+00:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:3:644:0:1897:dfa:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-09-23T15:47:18+00:00] CLIENT -> SERVER: AUTH LOGIN
+
+[2025-09-23T15:47:18+00:00] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-09-23T15:47:18+00:00] CLIENT -> SERVER: [credentials hidden]
+[2025-09-23T15:47:18+00:00] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-09-23T15:47:18+00:00] CLIENT -> SERVER: [credentials hidden]
+[2025-09-23T15:47:19+00:00] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: MAIL FROM:<eysie2@gmail.com>
+
+[2025-09-23T15:47:19+00:00] SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-b5569adf3bcsm1332096a12.9 - gsmtp
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: RCPT TO:<gabrielgreg27@gmail.com>
+
+[2025-09-23T15:47:19+00:00] SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-b5569adf3bcsm1332096a12.9 - gsmtp
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: DATA
+
+[2025-09-23T15:47:19+00:00] SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-b5569adf3bcsm1332096a12.9 - gsmtp
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: Date: Tue, 23 Sep 2025 15:47:17 +0000
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: To: Gabriel <gabrielgreg27@gmail.com>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: From: HanapBahay <eysie2@gmail.com>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: Reply-To: HanapBahay Support <eysie2@gmail.com>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: Subject: HanapBahay Email Verification
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: Message-ID: <mZVAxm55fhNApL9s69osnhBcT3fohL0gOgwqmGiIzk@hanapbahay.online>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: X-Mailer: HanapBahay Verification Mailer
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: X-Priority: 3
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER:  boundary="b1=_mZVAxm55fhNApL9s69osnhBcT3fohL0gOgwqmGiIzk"
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: 
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: --b1=_mZVAxm55fhNApL9s69osnhBcT3fohL0gOgwqmGiIzk
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: 
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: Verify your email: https://hanapbahay.online/verify_email.php?token=fab3b599ef30ba5dcfe6c4a9f0af4152
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: 
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: --b1=_mZVAxm55fhNApL9s69osnhBcT3fohL0gOgwqmGiIzk
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: 
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: 
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER:             <p>Hi <strong>Gabriel</strong>,</p>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER:             <p>Thank you for registering with <strong>HanapBahay</strong>!</p>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER:             <p>Please verify your email address by clicking the link below:</p>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER:             <p><a href='https://hanapbahay.online/verify_email.php?token=fab3b599ef30ba5dcfe6c4a9f0af4152'>https://hanapbahay.online/verify_email.php?token=fab3b599ef30ba5dcfe6c4a9f0af4152</a></p>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER:             <br>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER:             <p>If you did not register, you can safely ignore this message.</p>
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER:         
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: 
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: 
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: --b1=_mZVAxm55fhNApL9s69osnhBcT3fohL0gOgwqmGiIzk--
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: 
+
+[2025-09-23T15:47:19+00:00] CLIENT -> SERVER: .
+
+[2025-09-23T15:47:20+00:00] SERVER -> CLIENT: 250 2.0.0 OK  1758642440 41be03b00d2f7-b5569adf3bcsm1332096a12.9 - gsmtp
+
+[2025-09-23T15:47:20+00:00] CLIENT -> SERVER: QUIT
+
+[2025-09-23T15:47:20+00:00] SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-b5569adf3bcsm1332096a12.9 - gsmtp
+
+[2025-10-03T09:06:36+02:00] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-78b01fcac7dsm3974314b3a.38 - gsmtp
+
+[2025-10-03T09:06:36+02:00] CLIENT -> SERVER: EHLO localhost
+
+[2025-10-03T09:06:36+02:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2001:4451:87af:bf00:143c:b54b:5e0a:fb74]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-03T09:06:36+02:00] CLIENT -> SERVER: STARTTLS
+
+[2025-10-03T09:06:36+02:00] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-10-03T09:06:36+02:00] CLIENT -> SERVER: EHLO localhost
+
+[2025-10-03T09:06:37+02:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2001:4451:87af:bf00:143c:b54b:5e0a:fb74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-03T09:06:37+02:00] CLIENT -> SERVER: AUTH LOGIN
+
+[2025-10-03T09:06:37+02:00] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-10-03T09:06:37+02:00] CLIENT -> SERVER: [credentials hidden]
+[2025-10-03T09:06:37+02:00] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-10-03T09:06:37+02:00] CLIENT -> SERVER: [credentials hidden]
+[2025-10-03T09:06:37+02:00] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-10-03T09:06:37+02:00] CLIENT -> SERVER: MAIL FROM:<ethos.cpstn@gmail.com>
+
+[2025-10-03T09:06:38+02:00] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-78b01fcac7dsm3974314b3a.38 - gsmtp
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: RCPT TO:<gabrieldg2728@gmail.com>
+
+[2025-10-03T09:06:38+02:00] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-78b01fcac7dsm3974314b3a.38 - gsmtp
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: DATA
+
+[2025-10-03T09:06:38+02:00] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-78b01fcac7dsm3974314b3a.38 - gsmtp
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Date: Fri, 3 Oct 2025 09:06:36 +0200
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: To: Gabriel Gregorio <gabrieldg2728@gmail.com>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: From: HanapBahay <ethos.cpstn@gmail.com>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Reply-To: HanapBahay Support <eysie2@gmail.com>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Subject: New Rental Request for Studio Type
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Message-ID: <RtLzfvQrn6Lfim1rKhVhTvRjCPPNGXydsUUdoNg@localhost>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:  boundary="b1=_RtLzfvQrn6Lfim1rKhVhTvRjCPPNGXydsUUdoNg"
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: --b1=_RtLzfvQrn6Lfim1rKhVhTvRjCPPNGXydsUUdoNg
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: New rental request from TGabriel Gregorio for Studio Type. Amount: ₱8,000.00. Request ID: #13. Login to your dashboard to view details.
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: --b1=_RtLzfvQrn6Lfim1rKhVhTvRjCPPNGXydsUUdoNg
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 <h2 style='color: #8B4513;'>New Rental Request</h2>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 <p>Hi <strong>Gabriel Gregorio</strong>,</p>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 <p>You have received a new rental request for your property:</p>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 <div style='background: #f7f7f7; padding: 15px; border-radius: 5px; margin: 20px 0;'>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                     <table style='width: 100%; border-collapse: collapse;'>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         <tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0;'><strong>Property:</strong></td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0;'>Studio Type</td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         </tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         <tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0;'><strong>Tenant:</strong></td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0;'>TGabriel Gregorio</td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         </tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         <tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0;'><strong>Payment Method:</strong></td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0;'>Full Payment (100%)</td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         </tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         <tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0;'><strong>Amount Due:</strong></td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0; color: #28a745; font-size: 18px;'><strong>₱8,000.00</strong></td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         </tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         <tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0;'><strong>Request ID:</strong></td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                             <td style='padding: 8px 0;'>#13</td>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         </tr>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                     </table>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 </div>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 <p>Please log in to your dashboard to review and respond to this request:</p>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 <p style='text-align: center; margin: 25px 0;'>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                     <a href='http://localhost/hanapbahay%20current/public_html/rental_requests_uo.php'
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                        style='background: #8B4513; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;'>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                         View Rental Requests
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                     </a>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 </p>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 <hr style='border: none; border-top: 1px solid #ddd; margin: 30px 0;'>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 <p style='color: #666; font-size: 12px;'>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                     This is an automated notification from HanapBahay. Please do not reply to this email.
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:                 </p>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:             </div>
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER:         
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: --b1=_RtLzfvQrn6Lfim1rKhVhTvRjCPPNGXydsUUdoNg--
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:06:38+02:00] CLIENT -> SERVER: .
+
+[2025-10-03T09:06:39+02:00] SERVER -> CLIENT: 250 2.0.0 OK  1759475199 d2e1a72fcca58-78b01fcac7dsm3974314b3a.38 - gsmtp
+
+[2025-10-03T09:06:39+02:00] CLIENT -> SERVER: QUIT
+
+[2025-10-03T09:06:39+02:00] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-78b01fcac7dsm3974314b3a.38 - gsmtp
+
+[2025-10-03T09:08:50+02:00] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-28e8d1ba1e3sm40421045ad.75 - gsmtp
+
+[2025-10-03T09:08:50+02:00] CLIENT -> SERVER: EHLO localhost
+
+[2025-10-03T09:08:50+02:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2001:4451:87af:bf00:143c:b54b:5e0a:fb74]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-03T09:08:50+02:00] CLIENT -> SERVER: STARTTLS
+
+[2025-10-03T09:08:50+02:00] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-10-03T09:08:50+02:00] CLIENT -> SERVER: EHLO localhost
+
+[2025-10-03T09:08:50+02:00] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2001:4451:87af:bf00:143c:b54b:5e0a:fb74]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-03T09:08:50+02:00] CLIENT -> SERVER: AUTH LOGIN
+
+[2025-10-03T09:08:51+02:00] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-10-03T09:08:51+02:00] CLIENT -> SERVER: [credentials hidden]
+[2025-10-03T09:08:51+02:00] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-10-03T09:08:51+02:00] CLIENT -> SERVER: [credentials hidden]
+[2025-10-03T09:08:51+02:00] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2025-10-03T09:08:51+02:00] CLIENT -> SERVER: MAIL FROM:<ethos.cpstn@gmail.com>
+
+[2025-10-03T09:08:51+02:00] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-28e8d1ba1e3sm40421045ad.75 - gsmtp
+
+[2025-10-03T09:08:51+02:00] CLIENT -> SERVER: RCPT TO:<gabrielgreg27@gmail.com>
+
+[2025-10-03T09:08:51+02:00] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-28e8d1ba1e3sm40421045ad.75 - gsmtp
+
+[2025-10-03T09:08:51+02:00] CLIENT -> SERVER: DATA
+
+[2025-10-03T09:08:52+02:00] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-28e8d1ba1e3sm40421045ad.75 - gsmtp
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Date: Fri, 3 Oct 2025 09:08:50 +0200
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: To: TGabriel Gregorio <gabrielgreg27@gmail.com>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: From: HanapBahay <ethos.cpstn@gmail.com>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Reply-To: HanapBahay Support <eysie2@gmail.com>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Subject: Rental Request Approved - Studio Type
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Message-ID: <cgdMp94Ecs3k6u6oo8qRYgEk9yDWh3zAgU42Ugo@localhost>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:  boundary="b1=_cgdMp94Ecs3k6u6oo8qRYgEk9yDWh3zAgU42Ugo"
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: --b1=_cgdMp94Ecs3k6u6oo8qRYgEk9yDWh3zAgU42Ugo
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Your rental request for Studio Type has been approved. Amount: ₱8,000.00. Request ID: #13. Login to your dashboard to view details.
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: --b1=_cgdMp94Ecs3k6u6oo8qRYgEk9yDWh3zAgU42Ugo
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                 <div style='background: #28a745; color: white; padding: 20px; text-align: center;'>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     <h1 style='margin: 0; font-size: 2.5rem;'>✓</h1>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     <h2 style='margin: 10px 0 0 0;'>Rental Request Update</h2>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                 </div>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                 <div style='padding: 30px; background: white;'>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     <p>Hi <strong>TGabriel Gregorio</strong>,</p>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     <p>Your rental request has been <strong>approved</strong>!</p>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     <div style='background: #f7f7f7; padding: 15px; border-radius: 5px; margin: 20px 0;'>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         <table style='width: 100%; border-collapse: collapse;'>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                             <tr>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                                 <td style='padding: 8px 0;'><strong>Property:</strong></td>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                                 <td style='padding: 8px 0;'>Studio Type</td>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                             </tr>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                             <tr>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                                 <td style='padding: 8px 0;'><strong>Property Owner:</strong></td>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                                 <td style='padding: 8px 0;'>Gabriel Gregorio</td>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                             </tr>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                             <tr>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                                 <td style='padding: 8px 0;'><strong>Amount Due:</strong></td>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                                 <td style='padding: 8px 0; color: #28a745; font-size: 18px;'><strong>₱8,000.00</strong></td>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                             </tr>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                             <tr>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                                 <td style='padding: 8px 0;'><strong>Request ID:</strong></td>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                                 <td style='padding: 8px 0;'>#13</td>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                             </tr>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         </table>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     </div>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                 <div style="background: #e7f5ec; border-left: 4px solid #28a745; padding: 15px; margin: 20px 0;">
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     <h4 style="color: #28a745; margin-top: 0;">Next Steps:</h4>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     <ol style="margin: 10px 0; padding-left: 20px;">
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         <li>Contact the property owner to arrange viewing/move-in</li>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         <li>Prepare payment: ₱8,000.00</li>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         <li>Review and sign the rental agreement</li>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         <li>Complete payment to secure the property</li>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     </ol>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                 </div>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:             
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     <p style='text-align: center; margin: 25px 0;'>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         <a href='http://localhost/hanapbahay%20current/public_html/rental_request.php'
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                            style='background: #8B4513; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;'>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                             View My Requests
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         </a>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     </p>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                 </div>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                 <div style='background: #f7f7f7; padding: 20px; text-align: center;'>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     <p style='color: #666; font-size: 12px; margin: 0;'>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         This is an automated notification from HanapBahay.<br>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                         For questions, please contact the property owner directly.
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                     </p>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:                 </div>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:             </div>
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER:         
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: --b1=_cgdMp94Ecs3k6u6oo8qRYgEk9yDWh3zAgU42Ugo--
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: 
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: .
+
+[2025-10-03T09:08:52+02:00] SERVER -> CLIENT: 250 2.0.0 OK  1759475332 d9443c01a7336-28e8d1ba1e3sm40421045ad.75 - gsmtp
+
+[2025-10-03T09:08:52+02:00] CLIENT -> SERVER: QUIT
+
+[2025-10-03T09:08:52+02:00] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-28e8d1ba1e3sm40421045ad.75 - gsmtp
+

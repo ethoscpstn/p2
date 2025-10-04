@@ -1,0 +1,212 @@
+[19-Sep-2025 08:56:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'code_expiry' in 'SET' in /home/u412552698/domains/ethosjru.online/public_html/login_process.php:20
+Stack trace:
+#0 /home/u412552698/domains/ethosjru.online/public_html/login_process.php(20): mysqli->prepare()
+#1 /home/u412552698/domains/ethosjru.online/public_html/login_process.php(60): sendLoginCode()
+#2 {main}
+  thrown in /home/u412552698/domains/ethosjru.online/public_html/login_process.php on line 20
+[19-Sep-2025 08:59:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'login_attempts' in 'SET' in /home/u412552698/domains/ethosjru.online/public_html/login_process.php:20
+Stack trace:
+#0 /home/u412552698/domains/ethosjru.online/public_html/login_process.php(20): mysqli->prepare()
+#1 /home/u412552698/domains/ethosjru.online/public_html/login_process.php(60): sendLoginCode()
+#2 {main}
+  thrown in /home/u412552698/domains/ethosjru.online/public_html/login_process.php on line 20
+[26-Sep-2025 10:51:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u412552698_dbhanapbahay'@'localhost' (using password: YES) in C:\xampp\htdocs\public_html\mysql_connect.php:8
+Stack trace:
+#0 C:\xampp\htdocs\public_html\mysql_connect.php(8): mysqli->__construct('localhost', 'u412552698_dbha...', Object(SensitiveParameterValue), 'u412552698_dbha...')
+#1 C:\xampp\htdocs\public_html\login_process.php(10): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\public_html\mysql_connect.php on line 8
+[02-Oct-2025 11:41:33 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'a.paymaya_name' in 'SELECT' in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php:43
+Stack trace:
+#0 /home/u412552698/domains/hanapbahay.online/public_html/property_details.php(43): mysqli->prepare()
+#1 {main}
+  thrown in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 43
+[03-Oct-2025 10:09:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:09:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:09:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:09:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:09:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:09:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:09:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:09:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:10:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:10:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:10:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[03-Oct-2025 10:11:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\hanapbahay current\public_html\DashboardT.php on line 33
+[04-Oct-2025 19:26:27 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'property_photos' in 'field list' in C:\xampp\htdocs\HanapBahay\DashboardT.php:33
+Stack trace:
+#0 C:\xampp\htdocs\HanapBahay\DashboardT.php(33): mysqli->query('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\HanapBahay\DashboardT.php on line 33
+[04-Oct-2025 21:10:38 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'l.property_type' in 'field list' in C:\xampp\htdocs\public_html\property_details.php:45
+Stack trace:
+#0 C:\xampp\htdocs\public_html\property_details.php(45): mysqli->prepare('\r\n  SELECT\r\n   ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\public_html\property_details.php on line 45
+[04-Oct-2025 21:10:50 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'l.property_type' in 'field list' in C:\xampp\htdocs\public_html\property_details.php:45
+Stack trace:
+#0 C:\xampp\htdocs\public_html\property_details.php(45): mysqli->prepare('\r\n  SELECT\r\n   ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\public_html\property_details.php on line 45
+[04-Oct-2025 21:25:56 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\public_html\property_details.php:171
+Stack trace:
+#0 C:\xampp\htdocs\public_html\property_details.php(171): mysqli->prepare('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\public_html\property_details.php on line 171
+[04-Oct-2025 21:26:11 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\public_html\property_details.php:171
+Stack trace:
+#0 C:\xampp\htdocs\public_html\property_details.php(171): mysqli->prepare('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\public_html\property_details.php on line 171
+[04-Oct-2025 21:26:12 Asia/Manila] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\public_html\property_details.php:171
+Stack trace:
+#0 C:\xampp\htdocs\public_html\property_details.php(171): mysqli->prepare('\r\n  SELECT id, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\public_html\property_details.php on line 171
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\public_html\property_details.php on line 579
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\public_html\property_details.php on line 579
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\public_html\property_details.php on line 580
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\public_html\property_details.php on line 596
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\public_html\property_details.php on line 596
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\public_html\property_details.php on line 597
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\public_html\property_details.php on line 597
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\public_html\property_details.php on line 617
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\public_html\property_details.php on line 619
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\public_html\property_details.php on line 619
+[04-Oct-2025 22:34:14 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\public_html\property_details.php on line 619
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 580
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 617
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:09:19 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 580
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 617
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:21:36 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 580
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 617
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:21:45 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 580
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 617
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:22:03 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 580
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 617
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:23:23 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 580
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 617
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:37:49 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 579
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 580
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 596
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 597
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 617
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[04-Oct-2025 23:38:57 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 619
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 584
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 584
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 585
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 601
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 601
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 602
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 602
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 622
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 624
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Warning:  Trying to access array offset on value of type null in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 624
+[05-Oct-2025 02:01:57 Asia/Manila] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/u412552698/domains/hanapbahay.online/public_html/property_details.php on line 624

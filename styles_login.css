@@ -1,0 +1,129 @@
+/* styles_login.css - HanapBahay Login Module */
+body.bg-soft {
+  background: linear-gradient(135deg, #fff7e6, #fffde7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.logo {
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+
+.brand-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.tagline {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.toggle-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toggle-btn {
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  color: #ff8a50;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.toggle-btn:hover,
+.toggle-btn.active {
+  background-color: #ffe0b2;
+}
+
+.forms {
+  position: relative;
+  min-height: 460px;
+  overflow: hidden;
+}
+
+.form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 0.4s ease;
+  pointer-events: none;
+}
+
+.form.active {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+input.form-control,
+select.form-control {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.btn {
+  width: 100%;
+  background-color: #ff8a50;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin-top: 8px;
+}
+
+.btn:hover {
+  background-color: #fdd835;
+  color: #333;
+}
+
+/* 👁️ Password toggle inside input */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input.form-control {
+  padding-right: 40px;
+}
+
+.toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  cursor: pointer;
+  user-select: none;
+}

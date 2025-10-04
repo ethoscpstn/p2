@@ -1,0 +1,310 @@
+/* =========================================================
+   HanapBahay – Unified Dashboard Styles
+   Target pages: DashboardUO.php (+ shared components)
+   ========================================================= */
+
+/* ---------- Brand Tokens ---------- */
+:root{
+  --hb-brown:#8B4513;
+  --hb-gold:#F1C64F;
+  --hb-ink:#1F2937;      /* primary text */
+  --hb-muted:#6B7280;    /* secondary text */
+  --hb-soft:#FFFDF4;     /* app background */
+  --hb-card:#FFFFFF;     /* surfaces/cards */
+  --hb-border:#E5E7EB;   /* borders */
+  --hb-shadow:0 10px 20px rgba(0,0,0,.06);
+  --hb-radius:14px;
+  --hb-radius-sm:10px;
+  --hb-gap:16px;         /* base spacing unit */
+}
+
+/* ---------- Global / Base ---------- */
+*,
+*::before,
+*::after{ box-sizing: border-box; }
+
+html, body{
+  height:100%;
+  max-width:100%;
+  overflow-x:hidden;
+}
+
+body.bg-soft{
+  margin:0;
+  background:var(--hb-soft);
+  color:var(--hb-ink);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display:flex;                 /* center on desktop */
+  justify-content:center;
+  align-items:flex-start;
+  padding-top:75px;             /* reserve space for sticky top bar */
+  line-height:1.45;
+}
+
+/* Smooth headings */
+h1,h2,h3,h4,h5,h6{
+  margin:0 0 8px;
+  font-weight:800;
+  letter-spacing:.2px;
+  color:var(--hb-ink);
+}
+
+/* Links in dashboard area */
+a{ color:var(--hb-brown); text-decoration:none; }
+a:hover{ color:var(--hb-gold); }
+
+/* Utilities */
+.shadow-soft{ box-shadow:var(--hb-shadow); }
+.rounded-lg{ border-radius:var(--hb-radius); }
+.rounded-sm{ border-radius:var(--hb-radius-sm); }
+
+/* ---------- Top Navigation (fixed) ---------- */
+.topFixedBar{
+  position:fixed;
+  inset:0 0 auto 0;
+  z-index:9999;
+  height:75px;
+  display:flex;
+  align-items:center;
+  background:var(--hb-brown);
+  color:#fff;
+  padding:0 20px;
+  box-shadow:0 4px 16px rgba(0,0,0,.08);
+}
+
+.topFixedBar .container,
+.topFixedBar .container-fluid{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+  gap:12px;
+  padding-left:0;
+}
+
+.topFixedBar .nav{
+  display:flex;
+  gap:20px;
+  align-items:center;
+}
+
+.topFixedBar .nav-link{
+  color:#fff !important;
+  font-weight:600;
+  padding:.5rem 0;
+  transition:opacity .2s, color .2s;
+  opacity:.95;
+  white-space:nowrap;
+}
+.topFixedBar .nav-link:hover{ color:var(--hb-gold) !important; opacity:1; }
+
+/* Top bar buttons (e.g., Logout) */
+.topFixedBar .btn,
+.topFixedBar a.btn{
+  background:transparent;
+  border:1.5px solid #fff;
+  color:#fff;
+  font-weight:600;
+  font-size:.95rem;
+  padding:6px 14px;
+  border-radius:8px;
+  transition:all .2s;
+  white-space:nowrap;
+}
+.topFixedBar .btn:hover,
+.topFixedBar a.btn:hover{
+  background:#fff;
+  color:var(--hb-brown);
+  border-color:#fff;
+}
+
+/* Logo sizing inside the bar */
+.topFixedBar .logo{
+  height:180px;     /* fits cleanly in 75px bar */
+  width:auto;
+  display:block;
+  object-fit:contain;
+}
+
+/* ---------- Page Header (below nav) ---------- */
+.dashboard-header{
+  background:transparent;
+  border:1px solid var(--hb-border);
+  border-radius:var(--hb-radius);
+  margin:16px 16px 0;
+  padding:12px 16px;
+  box-shadow:var(--hb-shadow);
+  background:var(--hb-card);
+}
+
+.badge.bg-orange{
+  background:var(--hb-brown) !important;
+  font-weight:700;
+  letter-spacing:.3px;
+}
+
+/* ---------- Cards & Sections ---------- */
+.card{
+  background:var(--hb-card);
+  border:1px solid var(--hb-border);
+  border-radius:var(--hb-radius);
+  box-shadow:var(--hb-shadow);
+}
+
+.card-header{
+  border-bottom:1px solid var(--hb-border);
+  border-radius: var(--hb-radius) var(--hb-radius) 0 0 !important;
+  background:linear-gradient(0deg,#f8fafc,#fff);
+  color:var(--hb-ink);
+  font-weight:800;
+}
+
+.card p{ color:var(--hb-muted); }
+
+/* ---------- Forms ---------- */
+label, .form-label{
+  font-weight:600;
+  color:#374151;
+  margin-bottom:6px;
+}
+
+.form-control,
+.form-select{
+  border:1px solid var(--hb-border);
+  border-radius:var(--hb-radius-sm);
+  padding:12px 14px;
+  font-size:.98rem;
+  background:#fff;
+  transition:border-color .2s, box-shadow .2s, background .2s;
+}
+
+.form-control:focus,
+.form-select:focus{
+  border-color:var(--hb-gold);
+  box-shadow:0 0 0 .25rem rgba(241,198,79,.25);
+  background:#fff;
+}
+
+/* Inline checkboxes */
+.form-check-inline .form-check-input{
+  margin-top:.3rem; margin-right:.3rem;
+}
+.form-check-inline .form-check-label{
+  margin-right:12px; font-size:.95rem;
+}
+
+/* ---------- Buttons ---------- */
+.btn-primary{
+  background:var(--hb-brown);
+  border:none;
+  border-radius:var(--hb-radius-sm);
+  padding:12px 18px;
+  font-weight:800;
+  letter-spacing:.2px;
+  color:#fff;
+  transition:transform .06s, background .2s, color .2s;
+}
+.btn-primary:hover{ background:var(--hb-gold); color:var(--hb-brown); }
+.btn-primary:active{ transform:translateY(1px); }
+
+.btn-outline-primary{
+  border:1.5px solid var(--hb-brown);
+  color:var(--hb-brown);
+  background:transparent;
+  border-radius:10px;
+  font-weight:700;
+}
+.btn-outline-primary:hover{
+  background:var(--hb-brown);
+  color:#fff;
+}
+
+/* ---------- Insights / Light Surfaces ---------- */
+.section-light,
+.border.rounded.bg-light{
+  background:#F9FAFB !important;
+  border:1px solid var(--hb-border) !important;
+  border-radius:var(--hb-radius) !important;
+  color:var(--hb-muted) !important;
+  box-shadow:var(--hb-shadow);
+}
+
+/* ---------- Map ---------- */
+#map{
+  border-radius:var(--hb-radius);
+  border:1px solid var(--hb-border);
+  box-shadow:var(--hb-shadow);
+  background:#eef2f7;
+}
+
+/* ---------- Listings blocks ---------- */
+.listing-block{
+  border:1px solid var(--hb-border);
+  border-radius:12px;
+  padding:12px;
+  background:#fff;
+}
+.listing-block h6{ font-weight:800; }
+.listing-block p{ margin:.15rem 0; color:#374151; }
+
+/* ---------- Chat (Widget overrides to match brand) ---------- */
+/* If the chat CSS is inline, these will gently theme it */
+.hb-chat-container{
+  border:1px solid var(--hb-border);
+  border-radius:var(--hb-radius);
+  box-shadow:var(--hb-shadow);
+  background:var(--hb-card);
+}
+.hb-chat-header{
+  background:linear-gradient(0deg,#f8fafc,#fff);
+  border-bottom:1px solid var(--hb-border);
+}
+.hb-btn{ background:var(--hb-brown) !important; }
+.hb-btn:disabled{ opacity:.6; }
+.hb-chat-actions .hb-btn-ghost:hover{ background:rgba(0,0,0,.06); }
+
+/* ---------- Spacing helpers ---------- */
+.section-title{
+  color:var(--hb-brown);
+  font-weight:800;
+  font-size:1.25rem;
+  text-align:left;
+  margin: 0 0 8px 0;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 992px){
+  /* keep consistent width without horizontal scroll */
+  #pageContent{ width:100%; }
+}
+
+@media (max-width: 768px){
+  body.bg-soft{
+    display:block;        /* remove centering quirk on mobile */
+    padding-top:64px;     /* slightly smaller offset */
+  }
+
+  .topFixedBar{
+    height:auto;
+    padding:6px 12px;
+  }
+  .topFixedBar .logo{ height:38px; }
+  .topFixedBar .nav{
+    gap:12px;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .topFixedBar .nav::-webkit-scrollbar{ display:none; }
+
+  .dashboard-header{
+    margin:12px;
+    padding:10px 12px;
+  }
+}
+
+@media (max-width: 576px){
+  .topFixedBar .logo{ height:32px; }
+  .topFixedBar .btn{ padding:4px 10px; font-size:.85rem; }
+  .nav-link{ font-size:.95rem; }
+}

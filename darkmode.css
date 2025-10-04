@@ -1,0 +1,311 @@
+/* Dark Mode Stylesheet for HanapBahay */
+
+:root {
+  /* Light mode (default) */
+  --bg-primary: #fffdf4;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f9fafb;
+  --text-primary: #1f2937;
+  --text-secondary: #374151;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+  --hb-brown: #8B4513;
+  --hb-gold: #f1c64f;
+  --card-shadow: rgba(0, 0, 0, 0.06);
+  --input-bg: #ffffff;
+  --amenity-bg: #f9fafb;
+  --amenity-border: #e5e7eb;
+}
+
+/* Dark mode variables */
+[data-theme="dark"] {
+  --bg-primary: #111827;
+  --bg-secondary: #1f2937;
+  --bg-tertiary: #374151;
+  --text-primary: #f9fafb;
+  --text-secondary: #e5e7eb;
+  --text-muted: #9ca3af;
+  --border-color: #374151;
+  --hb-brown: #d97706;
+  --hb-gold: #fbbf24;
+  --card-shadow: rgba(0, 0, 0, 0.3);
+  --input-bg: #1f2937;
+  --amenity-bg: #374151;
+  --amenity-border: #4b5563;
+}
+
+/* Apply dark mode to body */
+[data-theme="dark"] body {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Dashboard background */
+[data-theme="dark"] body.dashboard-bg {
+  background: var(--bg-primary) !important;
+}
+
+/* Cards and containers */
+[data-theme="dark"] .bg-white,
+[data-theme="dark"] form.bg-white,
+[data-theme="dark"] .card {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+  box-shadow: 0 12px 24px var(--card-shadow) !important;
+}
+
+/* Form inputs */
+[data-theme="dark"] .form-control,
+[data-theme="dark"] .form-select {
+  background: var(--input-bg) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .form-control:focus,
+[data-theme="dark"] .form-select:focus {
+  background: var(--input-bg) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--hb-brown) !important;
+}
+
+[data-theme="dark"] .form-control::placeholder {
+  color: var(--text-muted) !important;
+}
+
+/* Labels */
+[data-theme="dark"] .form-label,
+[data-theme="dark"] label {
+  color: var(--text-secondary) !important;
+}
+
+/* Buttons - Primary */
+[data-theme="dark"] .btn-primary,
+[data-theme="dark"] button[type="submit"] {
+  background: var(--hb-brown) !important;
+  border-color: var(--hb-brown) !important;
+  color: #fff !important;
+}
+
+[data-theme="dark"] .btn-primary:hover,
+[data-theme="dark"] button[type="submit"]:hover {
+  background: var(--hb-gold) !important;
+  border-color: var(--hb-gold) !important;
+  color: #1f2937 !important;
+}
+
+/* Buttons - Outline */
+[data-theme="dark"] .btn-outline-primary {
+  border-color: var(--hb-brown) !important;
+  color: var(--hb-brown) !important;
+  background: transparent !important;
+}
+
+[data-theme="dark"] .btn-outline-primary:hover {
+  background: var(--hb-brown) !important;
+  color: #fff !important;
+}
+
+[data-theme="dark"] .btn-outline-light {
+  border-color: var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Navbar */
+[data-theme="dark"] .topFixedBar,
+[data-theme="dark"] nav.topbar {
+  background: var(--bg-secondary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* Dashboard header */
+[data-theme="dark"] .dashboard-header {
+  background: var(--bg-secondary) !important;
+  border-color: var(--border-color) !important;
+}
+
+/* Amenities grid */
+[data-theme="dark"] .amenities-grid .form-check {
+  background: var(--amenity-bg) !important;
+  border-color: var(--amenity-border) !important;
+}
+
+[data-theme="dark"] .amenities-grid .form-check:hover {
+  background: var(--bg-tertiary) !important;
+  border-color: var(--hb-brown) !important;
+}
+
+[data-theme="dark"] .amenities-grid .form-check-label {
+  color: var(--text-secondary) !important;
+}
+
+/* Checkboxes */
+[data-theme="dark"] .form-check-input {
+  background-color: var(--input-bg) !important;
+  border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .form-check-input:checked {
+  background-color: var(--hb-brown) !important;
+  border-color: var(--hb-brown) !important;
+}
+
+/* File inputs */
+[data-theme="dark"] input[type="file"] {
+  background: var(--amenity-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] input[type="file"]:hover {
+  border-color: var(--hb-brown) !important;
+}
+
+/* Help text */
+[data-theme="dark"] .form-help {
+  color: var(--text-muted) !important;
+}
+
+/* Alerts */
+[data-theme="dark"] .alert-info {
+  background: #1e3a5f !important;
+  border-color: #2563eb !important;
+  color: #93c5fd !important;
+}
+
+[data-theme="dark"] .alert-danger {
+  background: #7f1d1d !important;
+  border-color: #dc2626 !important;
+  color: #fca5a5 !important;
+}
+
+/* HR lines */
+[data-theme="dark"] hr {
+  border-color: var(--border-color) !important;
+  opacity: 1 !important;
+}
+
+/* Section headings */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] form h5 {
+  color: var(--hb-gold) !important;
+}
+
+/* Text colors */
+[data-theme="dark"] .text-muted {
+  color: var(--text-muted) !important;
+}
+
+[data-theme="dark"] .text-dark {
+  color: var(--text-primary) !important;
+}
+
+/* Listings cards */
+[data-theme="dark"] .card-listing {
+  background: var(--bg-secondary) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .card-listing:hover {
+  border-color: var(--hb-brown) !important;
+}
+
+/* Badges */
+[data-theme="dark"] .badge {
+  background: var(--bg-tertiary) !important;
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .badge-cap {
+  background: var(--hb-gold) !important;
+  color: #1f2937 !important;
+}
+
+/* Price display */
+[data-theme="dark"] .price {
+  color: var(--hb-gold) !important;
+}
+
+/* Back button */
+[data-theme="dark"] .btn-hb-back {
+  background: var(--hb-brown) !important;
+  color: #fff !important;
+}
+
+[data-theme="dark"] .btn-hb-back:hover {
+  background: var(--hb-gold) !important;
+  color: #1f2937 !important;
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  position: fixed;
+  top: 80px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--hb-brown);
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  z-index: 1050;
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.dark-mode-toggle:active {
+  transform: scale(0.95);
+}
+
+[data-theme="dark"] .dark-mode-toggle {
+  background: var(--hb-gold);
+  color: #1f2937;
+}
+
+/* Hide moon icon in light mode, sun icon in dark mode */
+.dark-mode-toggle .icon-moon {
+  display: block;
+}
+
+.dark-mode-toggle .icon-sun {
+  display: none;
+}
+
+[data-theme="dark"] .dark-mode-toggle .icon-moon {
+  display: none;
+}
+
+[data-theme="dark"] .dark-mode-toggle .icon-sun {
+  display: block;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .dark-mode-toggle {
+    top: 16px;
+    right: 16px;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+}
